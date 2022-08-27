@@ -15,7 +15,7 @@
     "@pinia/nuxt": "0.4.1",
     "@unocss/nuxt": "0.45.8",
     "@vueuse/nuxt": "9.1.1",
-    "eslint": "8.22.0",
+    "eslint": "8.23.0",
     "nuxt": "3.0.0-rc.6",
     "pinia": "2.0.21",
     "sweetalert2": "11.4.29",
