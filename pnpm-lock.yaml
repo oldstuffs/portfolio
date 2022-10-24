@@ -5,7 +5,7 @@ specifiers:
   '@iconify-json/carbon': 1.1.9
   '@iconify-json/twemoji': 1.1.5
   '@nuxtjs/color-mode': 3.1.8
-  '@pinia/nuxt': 0.4.1
+  '@pinia/nuxt': 0.4.3
   '@unocss/nuxt': 0.45.8
   '@vueuse/nuxt': 9.1.1
   eslint: 8.26.0
@@ -22,7 +22,7 @@ devDependencies:
   '@iconify-json/carbon': 1.1.9
   '@iconify-json/twemoji': 1.1.5
   '@nuxtjs/color-mode': 3.1.8
-  '@pinia/nuxt': 0.4.1_37b3albaku2ialews7ferrz4oi
+  '@pinia/nuxt': 0.4.3_avcjstd4qs5abw45dqxh7mv7qy
   '@unocss/nuxt': 0.45.8_vite@2.9.15+webpack@5.74.0
   '@vueuse/nuxt': 9.1.1_3mbtaisfwnfzd2vl6v43mqzgca
   eslint: 8.26.0
@@ -834,20 +834,16 @@ packages:
       - supports-color
     dev: true
 
-  /@pinia/nuxt/0.4.1_37b3albaku2ialews7ferrz4oi:
-    resolution: {integrity: sha512-lxf2r3jaJysGxKuuv5FcoFEd4jQbZu+hMLGEQhDlz06IBJ1U+Dlxv5FklHHS6pa5+4ffaVqhUinhlElI/pknXQ==}
+  /@pinia/nuxt/0.4.3_avcjstd4qs5abw45dqxh7mv7qy:
+    resolution: {integrity: sha512-pDyThvbOi9ztSPI9RDJG857Knb/mmUdDrDiLXbtLVQ3/l647jKncdP4TiRLnMlObENJjcFPEwHT7OVPq4VhQMw==}
     dependencies:
-      '@nuxt/kit': 3.0.0-rc.6_vite@2.9.15+webpack@5.74.0
+      '@nuxt/kit': 3.0.0-rc.12
       pinia: 2.0.23_avcjstd4qs5abw45dqxh7mv7qy
     transitivePeerDependencies:
       - '@vue/composition-api'
-      - esbuild
-      - rollup
       - supports-color
       - typescript
-      - vite
       - vue
-      - webpack
     dev: true
 
   /@polka/url/1.0.0-next.21:
@@ -6466,7 +6462,7 @@ packages:
     dependencies:
       acorn: 8.8.0
       estree-walker: 3.0.1
-      magic-string: 0.26.2
+      magic-string: 0.26.7
       unplugin: 0.9.6
     dev: true
 
@@ -6918,7 +6914,7 @@ packages:
       espree: 9.4.0
       esquery: 1.4.0
       lodash: 4.17.21
-      semver: 7.3.7
+      semver: 7.3.8
     transitivePeerDependencies:
       - supports-color
     dev: true
