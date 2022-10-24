@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from 'nuxt'
+import { useNitro } from '@nuxt/kit'
 
 export default defineNuxtConfig({
   components: true,
@@ -23,4 +24,9 @@ export default defineNuxtConfig({
   css: [
     '~/styles/main.css',
   ],
+  hooks: {
+    ready: () => {
+      useNitro()
+    },
+  },
 })
