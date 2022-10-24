@@ -1,6 +1,7 @@
 <script setup>
 const { data } = await useFetch('/api/data')
 const info = ref(data)
+const available = info.availability === 'available'
 </script>
 
 <template>
@@ -32,8 +33,8 @@ const info = ref(data)
       animate-[puls_1s_infinite]"
     >
       <div
-        :state="info.availability === 'available' ? 'I\'m available for commissions' : 'I\'m not available'"
-        :class="info.availability === 'available' ? 'bg-#00bb00' : 'bg-#ffc107'"
+        :state="available ? 'I\'m available for commissions' : 'I\'m not available'"
+        :class="available ? 'bg-#00bb00' : 'bg-#ffc107'"
         absolute
         bottom-3px
         right-5px
