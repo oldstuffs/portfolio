@@ -1,5 +1,7 @@
 <template>
   <div>
-    <ContactMe />
+    <CirclePercentage
+      lang="Turkish"
+    />
   </div>
 </template>

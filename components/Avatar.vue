@@ -1,92 +1,94 @@
 <script setup>
 const { data } = await useFetch('/api/data')
 const info = ref(data)
+const available = info.availability === 'available'
 </script>
 
 <template>
   <div
-    class="
     h-100px
     w-100px
-    relative"
+    relative
   >
     <img
       src="~/assets/avatar.png"
       alt="avatar"
-      class="
       absolute
       object-cover
-      rounded-50%
-      border-style-none"
+      border-style-none
+      class="
+      rounded-50%"
     >
     <div
-      class="
       z-2
-      before:content-none
-      before:right-1px
-      before:bottom--1px
-      before:absolute
-      before:bg-#fafafc
-      before:h-23px
-      before:w-23px
-      before:rounded-50%
-      before:animate-[puls_1s_infinite]"
+      before="
+      content-none
+      right-1px
+      bottom--1px
+      absolute
+      h-23px
+      w-23px
+      bg-#fafafc
+      rounded-50%
+      animate-[puls_1s_infinite]"
     >
       <div
-        :state="info.availability === 'available' ? 'I\'m available for commissions' : 'I\'m not available'"
-        :class="info.availability === 'available' ? 'bg-#00bb00' : 'bg-#ffc107'"
-        class="
+        :state="available ? 'I\'m available for commissions' : 'I\'m not available'"
+        :class="available ? 'bg-#00bb00' : 'bg-#ffc107'"
         absolute
         bottom-3px
         right-5px
         h-15px
         w-15px
-        rounded-50%
         z-0
+        transition-all
+        text-center
+        delay-0s
+        class="
+        rounded-50%
+        duration-0.4s"
+        before="
+        hover:opacity-[1]
+        hover:translate-x-0
+        hover:rotate-45deg
+        content-none
+        absolute
+        h-5px
+        w-5px
+        right--15px
+        top-5px
+        opacity-0
+        bg-#191923
+        pointer-events-none
+        translate-x-20px
+        rotate-45deg
         transition-all
         duration-0.4s
         delay-0s
-        text-center
-        before:hover:opacity-[1]
-        before:hover:translate-x-0
-        before:hover:rotate-45deg
-        after:hover:opacity-[1]
-        after:hover:translate-x-0
-        before:content-none
-        before:absolute
-        before:h-5px
-        before:w-5px
-        before:right--15px
-        before:top-5px
-        before:opacity-0
-        before:bg-#191923
-        before:pointer-events-none
-        before:translate-x-20px
-        before:rotate-45deg
-        before:transition-all
-        before:duration-0.4s
-        before:delay-0s
-        before:z-99
-        after:text-#8c8c8e
-        after:relative
-        after:content-[attr(state)]
-        after:w-100px
-        after:block
-        after:px-10px
-        after:py-5px
-        after:top--10px
-        after:left-28px
-        after:text-10px
-        after:font-200
-        after:shadow-availability
-        after:bg-#191923
-        after:opacity-0
-        after:pointer-events-none
-        after:translate-x-20px
-        after:transition-all
-        after:duration-0.4s
-        after:delay-0s
-        after:text-left"
+        z-99"
+        after="
+        hover:opacity-[1]
+        hover:translate-x-0
+        text-#8c8c8e
+        relative
+        content-[attr(state)]
+        w-100px
+        block
+        px-10px
+        py-5px
+        top--10px
+        left-28px
+        text-10px
+        font-200
+        shadow-availability
+        bg-#191923
+        opacity-0
+        pointer-events-none
+        translate-x-20px
+        transition-all
+        duration-0.4s
+        delay-0s
+        text-left"
       />
     </div>
   </div>

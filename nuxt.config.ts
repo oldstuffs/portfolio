@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt'
+import { useNitro } from '@nuxt/kit'
 
 export default defineNuxtConfig({
   components: true,
@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@unocss/nuxt',
+    '@nuxtjs/i18n',
   ],
   experimental: {
     reactivityTransform: true,
@@ -23,4 +24,13 @@ export default defineNuxtConfig({
   css: [
     '~/styles/main.css',
   ],
+  hooks: {
+    ready: () => {
+      useNitro()
+    },
+  },
+  i18n: {
+    locales: ['en', 'tr'],
+    defaultLocale: 'en',
+  },
 })

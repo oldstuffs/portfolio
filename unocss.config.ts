@@ -9,6 +9,7 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+import presetRemToPx from '@unocss/preset-rem-to-px'
 
 export default defineConfig({
   shortcuts: [
@@ -28,6 +29,7 @@ export default defineConfig({
         mono: 'DM Mono',
       },
     }),
+    presetRemToPx(),
   ],
   transformers: [
     transformerDirectives(),

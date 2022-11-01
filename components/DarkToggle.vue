@@ -13,8 +13,7 @@ function toggleDark() {
     @click="toggleDark"
   >
     <div
-      class="
-      dark:i-carbon-moon i-carbon-sun"
+      dark:i-carbon-moon i-carbon-sun
     />
   </button>
 </template>
