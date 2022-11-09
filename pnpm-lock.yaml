@@ -15,7 +15,7 @@ specifiers:
   typescript: 4.8.4
   vite: 3.2.3
   vue: 3.2.43
-  webpack: 5.74.0
+  webpack: 5.75.0
 
 devDependencies:
   '@antfu/eslint-config': 0.29.4_rmayb2veg2btbq6mbmnyivgasy
@@ -23,7 +23,7 @@ devDependencies:
   '@iconify-json/twemoji': 1.1.5
   '@nuxtjs/color-mode': 3.1.8
   '@pinia/nuxt': 0.4.3_yj23f7cmfm674lxg3qkmjoz5m4
-  '@unocss/nuxt': 0.46.4_vite@3.2.3+webpack@5.74.0
+  '@unocss/nuxt': 0.46.4_vite@3.2.3+webpack@5.75.0
   '@vueuse/nuxt': 9.5.0_4nxizp3q3eexinwnesip6ke5ae
   eslint: 8.27.0
   nuxt: 3.0.0-rc.13_rmayb2veg2btbq6mbmnyivgasy
@@ -32,7 +32,7 @@ devDependencies:
   typescript: 4.8.4
   vite: 3.2.3
   vue: 3.2.43
-  webpack: 5.74.0
+  webpack: 5.75.0
 
 packages:
 
@@ -1251,7 +1251,7 @@ packages:
       sirv: 2.0.2
     dev: true
 
-  /@unocss/nuxt/0.46.4_vite@3.2.3+webpack@5.74.0:
+  /@unocss/nuxt/0.46.4_vite@3.2.3+webpack@5.75.0:
     resolution: {integrity: sha512-RenJa/k1nmu2LtiiSzZ4aP/dt+5cb3k3yHt5gHs7hWSvxQW8Wf4lrpS1Ia7vlzymtckVPvz3Tzpi2MDBzZD/RQ==}
     dependencies:
       '@nuxt/kit': 3.0.0-rc.13
@@ -1265,7 +1265,7 @@ packages:
       '@unocss/preset-wind': 0.46.4
       '@unocss/reset': 0.46.4
       '@unocss/vite': 0.46.4_vite@3.2.3
-      '@unocss/webpack': 0.46.4_webpack@5.74.0
+      '@unocss/webpack': 0.46.4_webpack@5.75.0
       unocss: 0.46.4_p36mb55eamg4dzoxepf6dcfsha
     transitivePeerDependencies:
       - rollup
@@ -1381,7 +1381,7 @@ packages:
       - rollup
     dev: true
 
-  /@unocss/webpack/0.46.4_webpack@5.74.0:
+  /@unocss/webpack/0.46.4_webpack@5.75.0:
     resolution: {integrity: sha512-9/yoCN9fhXlvfF7wMiEFwyNRoLW/ALTzJGLz4gji0avPmgKD9DXyVmkemvvTsWbwjun0R0MGenbdRQx5g9ZUWA==}
     peerDependencies:
       webpack: ^4 || ^5
@@ -1392,7 +1392,7 @@ packages:
       '@unocss/core': 0.46.4
       magic-string: 0.26.7
       unplugin: 0.10.2
-      webpack: 5.74.0
+      webpack: 5.75.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - rollup
@@ -1757,12 +1757,12 @@ packages:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
     dev: true
 
-  /acorn-import-assertions/1.8.0_acorn@8.7.1:
+  /acorn-import-assertions/1.8.0_acorn@8.8.0:
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
     peerDependencies:
       acorn: ^8
     dependencies:
-      acorn: 8.7.1
+      acorn: 8.8.0
     dev: true
 
   /acorn-jsx/5.3.2_acorn@8.8.0:
@@ -1771,12 +1771,6 @@ packages:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       acorn: 8.8.0
-    dev: true
-
-  /acorn/8.7.1:
-    resolution: {integrity: sha512-Xx54uLJQZ19lKygFXOWsscKUbsBZW0CPykPhVQdhIeIwrbPmJzqeASDInc8nKBnp/JT6igTs82qPXz069H8I/A==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
     dev: true
 
   /acorn/8.8.0:
@@ -2018,18 +2012,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       fill-range: 7.0.1
-    dev: true
-
-  /browserslist/4.20.3:
-    resolution: {integrity: sha512-NBhymBQl1zM0Y5dQT/O+xiLP9/rzOIQdKM/eMJBAq7yBgaB6krIYLGejrwVYnSHZdqjscB1SPuAjHwxjvN6Wdg==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      caniuse-lite: 1.0.30001430
-      electron-to-chromium: 1.4.284
-      escalade: 3.1.1
-      node-releases: 2.0.6
-      picocolors: 1.0.0
     dev: true
 
   /browserslist/4.21.4:
@@ -6280,7 +6262,7 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /terser-webpack-plugin/5.3.1_webpack@5.74.0:
+  /terser-webpack-plugin/5.3.1_webpack@5.75.0:
     resolution: {integrity: sha512-GvlZdT6wPQKbDNW/GDQzZFg/j4vKU96yl2q6mcUkzKOgW4gwf1Z8cZToUCrz31XHlPWH8MVb1r2tFtdDtTGJ7g==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -6301,7 +6283,7 @@ packages:
       serialize-javascript: 6.0.0
       source-map: 0.6.1
       terser: 5.13.1
-      webpack: 5.74.0
+      webpack: 5.75.0
     dev: true
 
   /terser/5.13.1:
@@ -6574,7 +6556,7 @@ packages:
       '@unocss/transformer-directives': 0.46.4
       '@unocss/transformer-variant-group': 0.46.4
       '@unocss/vite': 0.46.4_vite@3.2.3
-      '@unocss/webpack': 0.46.4_webpack@5.74.0
+      '@unocss/webpack': 0.46.4_webpack@5.75.0
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -6887,8 +6869,8 @@ packages:
     resolution: {integrity: sha512-8bWq0Iluiv9lVf9YaqWQ9+liNgXSHICm+rg544yRgGYaR8yXZTVBaHZkINZSB2yZSWo4b0F6MIxqJezVfOEAlg==}
     dev: true
 
-  /webpack/5.74.0:
-    resolution: {integrity: sha512-A2InDwnhhGN4LYctJj6M1JEaGL7Luj6LOmyBHjcI8529cm5p6VXiTIW2sn6ffvEAKmveLzvu4jrihwXtPojlAA==}
+  /webpack/5.75.0:
+    resolution: {integrity: sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -6902,9 +6884,9 @@ packages:
       '@webassemblyjs/ast': 1.11.1
       '@webassemblyjs/wasm-edit': 1.11.1
       '@webassemblyjs/wasm-parser': 1.11.1
-      acorn: 8.7.1
-      acorn-import-assertions: 1.8.0_acorn@8.7.1
-      browserslist: 4.20.3
+      acorn: 8.8.0
+      acorn-import-assertions: 1.8.0_acorn@8.8.0
+      browserslist: 4.21.4
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.10.0
       es-module-lexer: 0.9.3
@@ -6918,7 +6900,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.1_webpack@5.74.0
+      terser-webpack-plugin: 5.3.1_webpack@5.75.0
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
