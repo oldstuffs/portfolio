@@ -18,7 +18,7 @@
     "eslint": "8.28.0",
     "nuxt": "3.0.0-rc.13",
     "pinia": "2.0.24",
-    "sweetalert2": "11.6.9",
+    "sweetalert2": "11.6.10",
     "typescript": "4.9.3",
     "vite": "3.2.4",
     "vue": "3.2.45",
