@@ -5,7 +5,7 @@ specifiers:
   '@iconify-json/carbon': 1.1.10
   '@iconify-json/twemoji': 1.1.5
   '@nuxtjs/color-mode': 3.1.8
-  '@pinia/nuxt': 0.4.4
+  '@pinia/nuxt': 0.4.5
   '@unocss/nuxt': 0.46.5
   '@vueuse/nuxt': 9.5.0
   eslint: 8.28.0
@@ -22,7 +22,7 @@ devDependencies:
   '@iconify-json/carbon': 1.1.10
   '@iconify-json/twemoji': 1.1.5
   '@nuxtjs/color-mode': 3.1.8
-  '@pinia/nuxt': 0.4.4_mgnvym7yiazkylwwogi5r767ue
+  '@pinia/nuxt': 0.4.5_mgnvym7yiazkylwwogi5r767ue
   '@unocss/nuxt': 0.46.5_vite@3.2.4+webpack@5.75.0
   '@vueuse/nuxt': 9.5.0_m3stgclttyr5jjkx4eqaybxbzm
   eslint: 8.28.0
@@ -767,7 +767,7 @@ packages:
       pkg-types: 0.3.6
       postcss-import-resolver: 2.0.0
       scule: 0.3.2
-      std-env: 3.3.0
+      std-env: 3.3.1
       ufo: 0.8.6
       unimport: 0.6.8
       untyped: 0.5.0
@@ -914,11 +914,11 @@ packages:
       - supports-color
     dev: true
 
-  /@pinia/nuxt/0.4.4_mgnvym7yiazkylwwogi5r767ue:
-    resolution: {integrity: sha512-8C9Vv/Mx+IMZFnWTX0nFGW+pXk6hF4Ibgc0OZqlI6/Ii26/Do+gfEQLC/0J/7gFFe/VFhwLMlrK8WEL6oIRdmA==}
+  /@pinia/nuxt/0.4.5_mgnvym7yiazkylwwogi5r767ue:
+    resolution: {integrity: sha512-lnJdZkpySxBArpiOLTJZtA+QSbODl6xIk4psgGWzrWiEwPjUSup/RmQ7zlWz7dmQTONA/mttR0j4V1Zh0b5NKA==}
     dependencies:
       '@nuxt/kit': 3.0.0
-      pinia: 2.0.24_mgnvym7yiazkylwwogi5r767ue
+      pinia: 2.0.25_mgnvym7yiazkylwwogi5r767ue
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -5348,6 +5348,24 @@ packages:
       vue-demi: 0.12.5_vue@3.2.45
     dev: true
 
+  /pinia/2.0.25_mgnvym7yiazkylwwogi5r767ue:
+    resolution: {integrity: sha512-3reAkjJ6bW2D5hZKRMS0c9rUbHVlsVyZd037xO0PJr2AuF/09RRSBnFLlJgmHF4Jx6dEoW/jZBOHTushY7IMlw==}
+    peerDependencies:
+      '@vue/composition-api': ^1.4.0
+      typescript: '>=4.4.4'
+      vue: ^2.6.14 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/devtools-api': 6.4.5
+      typescript: 4.9.3
+      vue: 3.2.45
+      vue-demi: 0.12.5_vue@3.2.45
+    dev: true
+
   /pkg-types/0.3.6:
     resolution: {integrity: sha512-uQZutkkh6axl1GxDm5/+8ivVdwuJ5pyDGqJeSiIWIUWIqYiK3p9QKozN/Rv6eVvFoeSWkN1uoYeSDBwwBJBtbg==}
     dependencies:
@@ -6186,10 +6204,6 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /std-env/3.3.0:
-    resolution: {integrity: sha512-cNNS+VYsXIs5gI6gJipO4qZ8YYT274JHvNnQ1/R/x8Q8mdP0qj0zoMchRXmBNPqp/0eOEhX+3g7g6Fgb7meLIQ==}
-    dev: true
-
   /std-env/3.3.1:
     resolution: {integrity: sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==}
     dev: true
@@ -6745,7 +6759,7 @@ packages:
       acorn: 8.8.1
       chokidar: 3.5.3
       webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.4.5
+      webpack-virtual-modules: 0.4.6
     dev: true
 
   /unplugin/1.0.0:
@@ -7050,10 +7064,6 @@ packages:
   /webpack-sources/3.2.3:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
-    dev: true
-
-  /webpack-virtual-modules/0.4.5:
-    resolution: {integrity: sha512-8bWq0Iluiv9lVf9YaqWQ9+liNgXSHICm+rg544yRgGYaR8yXZTVBaHZkINZSB2yZSWo4b0F6MIxqJezVfOEAlg==}
     dev: true
 
   /webpack-virtual-modules/0.4.6:
