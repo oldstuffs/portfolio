@@ -11,7 +11,7 @@ specifiers:
   eslint: 8.28.0
   nuxt: 3.0.0-rc.13
   pinia: 2.0.26
-  sweetalert2: 11.6.13
+  sweetalert2: 11.6.14
   typescript: 4.9.3
   vite: 3.2.4
   vue: 3.2.45
@@ -28,7 +28,7 @@ devDependencies:
   eslint: 8.28.0
   nuxt: 3.0.0-rc.13_hsf322ms6xhhd4b5ne6lb74y4a
   pinia: 2.0.26_mgnvym7yiazkylwwogi5r767ue
-  sweetalert2: 11.6.13
+  sweetalert2: 11.6.14
   typescript: 4.9.3
   vite: 3.2.4
   vue: 3.2.45
@@ -6340,8 +6340,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /sweetalert2/11.6.13:
-    resolution: {integrity: sha512-n5yVF0FNx1lm4XzpPyb1HIaiptzODfVyeCzmB809tpK+1bPdoKoevKOxYjrtId75DV7xuIp4r6cjn8xUAB8dPQ==}
+  /sweetalert2/11.6.14:
+    resolution: {integrity: sha512-W8+vtsucIJg5BrFhHcqguNZMzmHGvVZVAYHaMGQ9dzrleOMZcHCGmnB46L9qUNdx5snr1GpMUVFjNuki7EBbuQ==}
     dev: true
 
   /tapable/1.1.3:
