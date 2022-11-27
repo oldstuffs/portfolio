@@ -12,7 +12,7 @@
     "@iconify-json/carbon": "1.1.11",
     "@iconify-json/twemoji": "1.1.6",
     "@nuxtjs/color-mode": "3.2.0",
-    "@pinia/nuxt": "0.4.5",
+    "@pinia/nuxt": "0.4.6",
     "@unocss/nuxt": "0.46.5",
     "@vueuse/nuxt": "9.6.0",
     "eslint": "8.28.0",
