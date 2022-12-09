@@ -10,7 +10,7 @@ specifiers:
   '@vueuse/nuxt': 9.6.0
   eslint: 8.29.0
   nuxt: 3.0.0-rc.13
-  pinia: 2.0.27
+  pinia: 2.0.28
   sweetalert2: 11.6.15
   typescript: 4.9.4
   vite: 3.2.5
@@ -27,7 +27,7 @@ devDependencies:
   '@vueuse/nuxt': 9.6.0_m3stgclttyr5jjkx4eqaybxbzm
   eslint: 8.29.0
   nuxt: 3.0.0-rc.13_ha6vam6werchizxrnqvarmz2zu
-  pinia: 2.0.27_prq2uz4lho2pwp6irk4cfkrxwu
+  pinia: 2.0.28_prq2uz4lho2pwp6irk4cfkrxwu
   sweetalert2: 11.6.15
   typescript: 4.9.4
   vite: 3.2.5
@@ -879,7 +879,7 @@ packages:
     resolution: {integrity: sha512-HjrYEfLdFpmsjhicPJgL36jVhzHWukIQPFFHGTSF84Cplu+f2nY2XHKqe9ToHzE9rLee2RjLOwAzOnXa/I/u6A==}
     dependencies:
       '@nuxt/kit': 3.0.0
-      pinia: 2.0.27_prq2uz4lho2pwp6irk4cfkrxwu
+      pinia: 2.0.28_prq2uz4lho2pwp6irk4cfkrxwu
     transitivePeerDependencies:
       - '@vue/composition-api'
       - rollup
@@ -5298,8 +5298,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia/2.0.27_prq2uz4lho2pwp6irk4cfkrxwu:
-    resolution: {integrity: sha512-nOnXP0OFeL8R4WjAHsterU+11vptda643gH02xKNtSCDPiRzVfRYodOLihLDoa0gL1KKuQKV+KOzEgdt3YvqEw==}
+  /pinia/2.0.28_prq2uz4lho2pwp6irk4cfkrxwu:
+    resolution: {integrity: sha512-YClq9DkqCblq9rlyUual7ezMu/iICWdBtfJrDt4oWU9Zxpijyz7xB2xTwx57DaBQ96UGvvTMORzALr+iO5PVMw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
