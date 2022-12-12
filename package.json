@@ -20,7 +20,7 @@
     "pinia": "2.0.28",
     "sweetalert2": "11.6.15",
     "typescript": "4.9.4",
-    "vite": "4.0.0",
+    "vite": "4.0.1",
     "vue": "3.2.45",
     "webpack": "5.75.0"
   }
